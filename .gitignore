@@ -1,0 +1,12 @@
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# 环境变量
+.env
+
+# 系统垃圾
+Thumbs.db
