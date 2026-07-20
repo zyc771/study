@@ -12,6 +12,7 @@ def divide(a, b):
         return "错误：不能除以0"
     return a / b
 
-print(add(1, 2))
-print(subtract(5, 3))
-print(multiply(3, 4))
+print(f"1 + 2 = {add(1, 2)}")
+print(f"5 - 3 = {subtract(5, 3)}")
+print(f"3 × 4 = {multiply(3, 4)}")
+print(f"5 / 0 = {divide(5, 0)}")
